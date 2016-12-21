@@ -30,6 +30,8 @@ limitation.
 
 $$$
 
+If you already have documents in the Document Library, you first need to migrate exiting documents. This can be achieved from the control panel, using the Data migration tools. Once the documents have been migrated, you should change the portal-ext.propreties file to use the store where you migrated them.
+
 For example, you can store documents and media files in your Liferay instance's
 database using DBStore. To enable DStore, add the following line to your
 `portal-ext.properties` file:
